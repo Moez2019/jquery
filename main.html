@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/style4.css">
+    <link rel="icon" type="image/png" href="res/word.jpg">
+    <script src="http:code.jquery.com/jquery-3.3.1.min.js"></script>
+    
+	<title> microsoft word </title>
+</head>	
+<body> 
+              <button type="button" >
+                                <select id="myselect" onchange="font1(this)">
+                                        <option value="arial">arial</option>
+                                        <option value="Cambria">Cambria</option>
+                                        <option value="Franklin Gothic Medium">Franklin Gothic Medium</option>
+                                        <option value="latin">latin</option>
+                                      </select>
+                        </button>
+                     
+                            <select id="rd" onChange="pol2(this)">
+                                    <option value="10px">10</option>
+                                    <option value="14px">14</option>
+                                    <option value="18px">18</option>
+                                    <option value="22px">22</option>
+                                    <option  value="26px">26</option>
+                                    <option value="30px">30</option>
+                                    <option value="34px">34</option>
+                                    <option value="38px">38</option>
+                                  </select>
+                        <button onclick="bold()">G</button>
+                      <button onclick="souligne()">S</button>
+                      <button onclick="italic()">I</button> 
+<div class="block">
+    <div class="sent1">
+    <p id="sent1"> Basic Javascript</p>
+    </div>
+    <div class="sent2">
+        <p1 id="sent2"> We're going to make a program that looks like Microsoft Word.
+          <br>
+                There will be one paragrah and a bunch of buttons.
+        </br>
+                Each button will have an onclick attribute that will link to a different javascript function.   </p1>
+    </div>
+    </div>
+</body>
+<script src="js/print4.js"></script>
+</html>

@@ -1,0 +1,17 @@
+.sent1{
+    text-align: center;
+    color:black;
+    font-size: 50px;
+    }
+    .sent2{
+        text-align: center;
+        color:black;
+        font-size: 20px;
+        }
+ .block{
+    height: 200px; 
+    position: static;
+    top: 50%;
+    left: 50%;
+ }
+    
